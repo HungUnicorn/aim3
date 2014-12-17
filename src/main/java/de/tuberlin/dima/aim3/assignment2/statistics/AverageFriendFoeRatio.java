@@ -22,9 +22,6 @@ package de.tuberlin.dima.aim3.assignment2.statistics;
 import com.google.common.collect.Iterables;
 
 import de.tuberlin.dima.aim3.assignment2.Config;
-import de.tuberlin.dima.aim3.assignment2.statistics.OutDegreeDistribution.CountVertices;
-import de.tuberlin.dima.aim3.assignment2.statistics.OutDegreeDistribution.DistributionElement;
-
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.functions.GroupReduceFunction;
