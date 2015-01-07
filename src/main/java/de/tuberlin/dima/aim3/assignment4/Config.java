@@ -19,34 +19,50 @@
 package de.tuberlin.dima.aim3.assignment4;
 
 public class Config {
+	
+	private static final String INPUT_PATH = "/home/hung/aim3/src/test/resources/assignment4/";
+	private static final String OUTPUT_PATH = "/home/hung/aim3/src/test/resources/assignment4/temp/";
 
-  private static final String INPUT_PATH = "/home/ssc/Entwicklung/projects/aim3/src/test/resources/assignment4/";
-  private static final String OUTPUT_PATH = "/tmp/assi4/";
+	private Config() {
+	}
 
-  private Config() {}
+	public static String pathToTrainingSet() {
+		return INPUT_PATH + "train.tab";
+	}
 
-  public static String pathToTrainingSet() {
-    return INPUT_PATH + "train.tab";
-  }
+	public static String pathToTestSet() {
+		return INPUT_PATH + "test.tab";
+	}
+	
+	public static String pathToSecretTestSet() {
+		return INPUT_PATH + "secrettest.dat";
+	}
 
-  public static String pathToTestSet() {
-    return INPUT_PATH + "test.tab";
-  }
+	public static String pathToOutput() {
+		return OUTPUT_PATH + "result";
+	}
 
-  public static String pathToOutput() {
-    return OUTPUT_PATH + "result";
-  }
+	public static String pathToSums() {
+		return OUTPUT_PATH + "sums";
+	}
 
-  public static String pathToSums() {
-    return OUTPUT_PATH + "sums";
-  }
+	public static String pathToConditionals() {
+		return OUTPUT_PATH + "conditionals";
+	}
 
-  public static String pathToConditionals() {
-    return OUTPUT_PATH + "conditionals";
-  }
+	public static String pathToDocCounts() {
+		return OUTPUT_PATH + "docCounts";
+	}
+	
+	public static String pathToUpload(){
+		return OUTPUT_PATH + "Upload.dat";
+	}
 
-  public static Long getSmoothingParameter() {
-    return 1L;
-  }
-
+	public static String pathToCombinedUpload(){
+		return OUTPUT_PATH + "Combined.dat";
+	}
+	
+	public static Long getSmoothingParameter() {
+		return 1L;
+	}		
 }
