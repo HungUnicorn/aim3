@@ -2,16 +2,16 @@ scalable-datamining-class
 =========================
 ### Assignments
 Assignment 1: Hadoop    
-Word count, Custom writable, Average, Map-side join and reduce-side join
+-Word count, Custom writable, Average, Map-side join and reduce-side join
 
 Assignment 2: Graph algorithms in Flink    
-Degree distribution, Outdegree
+-Degree distribution, Outdegree
 
 Assignment 3: Matrix Multiplication in Flink    
-AxB, BxA, Trace(AxB) and Trace(BxA)
+-AxB, BxA, Trace(AxB) and Trace(BxA)
 
 Assignment 4: Bayesian classifier in Flink    
-Trian, Classification, Test
+-Trian, Classification, Test
 
 ### Building the project
 
