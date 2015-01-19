@@ -11,7 +11,7 @@ Assignment 3: Matrix Multiplication in Flink
 -AxB, BxA, Trace(AxB) and Trace(BxA)
 
 Assignment 4: Bayesian classifier in Flink    
--Trian, Classification, Test
+-Train, Classify, Evaluate
 
 ### Building the project
 
